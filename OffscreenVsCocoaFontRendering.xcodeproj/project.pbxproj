@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		920409801A03B67400EA8929 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9204097F1A03B67400EA8929 /* AppDelegate.m */; };
+		920409821A03B67400EA8929 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 920409811A03B67400EA8929 /* main.m */; };
+		920409851A03B67400EA8929 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920409841A03B67400EA8929 /* ViewController.m */; };
+		920409871A03B67400EA8929 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920409861A03B67400EA8929 /* Images.xcassets */; };
+		9204098A1A03B67400EA8929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920409881A03B67400EA8929 /* Main.storyboard */; };
+		920409961A03B67400EA8929 /* OffscreenVsCocoaFontRenderingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 920409951A03B67400EA8929 /* OffscreenVsCocoaFontRenderingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		920409901A03B67400EA8929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 920409711A03B67300EA8929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 920409781A03B67300EA8929;
+			remoteInfo = OffscreenVsCocoaFontRendering;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		920409791A03B67300EA8929 /* OffscreenVsCocoaFontRendering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OffscreenVsCocoaFontRendering.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9204097D1A03B67400EA8929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9204097E1A03B67400EA8929 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9204097F1A03B67400EA8929 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		920409811A03B67400EA8929 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		920409831A03B67400EA8929 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		920409841A03B67400EA8929 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		920409861A03B67400EA8929 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		920409891A03B67400EA8929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9204098F1A03B67400EA8929 /* OffscreenVsCocoaFontRenderingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OffscreenVsCocoaFontRenderingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		920409941A03B67400EA8929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		920409951A03B67400EA8929 /* OffscreenVsCocoaFontRenderingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OffscreenVsCocoaFontRenderingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		920409761A03B67300EA8929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9204098C1A03B67400EA8929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		920409701A03B67300EA8929 = {
+			isa = PBXGroup;
+			children = (
+				9204097B1A03B67300EA8929 /* OffscreenVsCocoaFontRendering */,
+				920409921A03B67400EA8929 /* OffscreenVsCocoaFontRenderingTests */,
+				9204097A1A03B67300EA8929 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9204097A1A03B67300EA8929 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				920409791A03B67300EA8929 /* OffscreenVsCocoaFontRendering.app */,
+				9204098F1A03B67400EA8929 /* OffscreenVsCocoaFontRenderingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9204097B1A03B67300EA8929 /* OffscreenVsCocoaFontRendering */ = {
+			isa = PBXGroup;
+			children = (
+				9204097E1A03B67400EA8929 /* AppDelegate.h */,
+				9204097F1A03B67400EA8929 /* AppDelegate.m */,
+				920409831A03B67400EA8929 /* ViewController.h */,
+				920409841A03B67400EA8929 /* ViewController.m */,
+				920409861A03B67400EA8929 /* Images.xcassets */,
+				920409881A03B67400EA8929 /* Main.storyboard */,
+				9204097C1A03B67400EA8929 /* Supporting Files */,
+			);
+			path = OffscreenVsCocoaFontRendering;
+			sourceTree = "<group>";
+		};
+		9204097C1A03B67400EA8929 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9204097D1A03B67400EA8929 /* Info.plist */,
+				920409811A03B67400EA8929 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		920409921A03B67400EA8929 /* OffscreenVsCocoaFontRenderingTests */ = {
+			isa = PBXGroup;
+			children = (
+				920409951A03B67400EA8929 /* OffscreenVsCocoaFontRenderingTests.m */,
+				920409931A03B67400EA8929 /* Supporting Files */,
+			);
+			path = OffscreenVsCocoaFontRenderingTests;
+			sourceTree = "<group>";
+		};
+		920409931A03B67400EA8929 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				920409941A03B67400EA8929 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		920409781A03B67300EA8929 /* OffscreenVsCocoaFontRendering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920409991A03B67400EA8929 /* Build configuration list for PBXNativeTarget "OffscreenVsCocoaFontRendering" */;
+			buildPhases = (
+				920409751A03B67300EA8929 /* Sources */,
+				920409761A03B67300EA8929 /* Frameworks */,
+				920409771A03B67300EA8929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OffscreenVsCocoaFontRendering;
+			productName = OffscreenVsCocoaFontRendering;
+			productReference = 920409791A03B67300EA8929 /* OffscreenVsCocoaFontRendering.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9204098E1A03B67400EA8929 /* OffscreenVsCocoaFontRenderingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9204099C1A03B67400EA8929 /* Build configuration list for PBXNativeTarget "OffscreenVsCocoaFontRenderingTests" */;
+			buildPhases = (
+				9204098B1A03B67400EA8929 /* Sources */,
+				9204098C1A03B67400EA8929 /* Frameworks */,
+				9204098D1A03B67400EA8929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				920409911A03B67400EA8929 /* PBXTargetDependency */,
+			);
+			name = OffscreenVsCocoaFontRenderingTests;
+			productName = OffscreenVsCocoaFontRenderingTests;
+			productReference = 9204098F1A03B67400EA8929 /* OffscreenVsCocoaFontRenderingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		920409711A03B67300EA8929 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Denis S. Fokin";
+				TargetAttributes = {
+					920409781A03B67300EA8929 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					9204098E1A03B67400EA8929 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 920409781A03B67300EA8929;
+					};
+				};
+			};
+			buildConfigurationList = 920409741A03B67300EA8929 /* Build configuration list for PBXProject "OffscreenVsCocoaFontRendering" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 920409701A03B67300EA8929;
+			productRefGroup = 9204097A1A03B67300EA8929 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				920409781A03B67300EA8929 /* OffscreenVsCocoaFontRendering */,
+				9204098E1A03B67400EA8929 /* OffscreenVsCocoaFontRenderingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		920409771A03B67300EA8929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920409871A03B67400EA8929 /* Images.xcassets in Resources */,
+				9204098A1A03B67400EA8929 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9204098D1A03B67400EA8929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		920409751A03B67300EA8929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920409851A03B67400EA8929 /* ViewController.m in Sources */,
+				920409821A03B67400EA8929 /* main.m in Sources */,
+				920409801A03B67400EA8929 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9204098B1A03B67400EA8929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920409961A03B67400EA8929 /* OffscreenVsCocoaFontRenderingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		920409911A03B67400EA8929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 920409781A03B67300EA8929 /* OffscreenVsCocoaFontRendering */;
+			targetProxy = 920409901A03B67400EA8929 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		920409881A03B67400EA8929 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				920409891A03B67400EA8929 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		920409971A03B67400EA8929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		920409981A03B67400EA8929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9204099A1A03B67400EA8929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OffscreenVsCocoaFontRendering/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9204099B1A03B67400EA8929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OffscreenVsCocoaFontRendering/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9204099D1A03B67400EA8929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OffscreenVsCocoaFontRenderingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OffscreenVsCocoaFontRendering.app/Contents/MacOS/OffscreenVsCocoaFontRendering";
+			};
+			name = Debug;
+		};
+		9204099E1A03B67400EA8929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OffscreenVsCocoaFontRenderingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OffscreenVsCocoaFontRendering.app/Contents/MacOS/OffscreenVsCocoaFontRendering";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		920409741A03B67300EA8929 /* Build configuration list for PBXProject "OffscreenVsCocoaFontRendering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920409971A03B67400EA8929 /* Debug */,
+				920409981A03B67400EA8929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920409991A03B67400EA8929 /* Build configuration list for PBXNativeTarget "OffscreenVsCocoaFontRendering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9204099A1A03B67400EA8929 /* Debug */,
+				9204099B1A03B67400EA8929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9204099C1A03B67400EA8929 /* Build configuration list for PBXNativeTarget "OffscreenVsCocoaFontRenderingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9204099D1A03B67400EA8929 /* Debug */,
+				9204099E1A03B67400EA8929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 920409711A03B67300EA8929 /* Project object */;
+}
