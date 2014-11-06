@@ -7,19 +7,25 @@
 //
 
 #import "ViewController.h"
+#import "MyOGLView.h"
+
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    MyOGLView * oglView = [[MyOGLView alloc] initWithFrame:CGRectMake(100, self.view.frame.size.height - 50, 50, 50)];
+    [self.view addSubview:oglView];
+    [oglView setNeedsDisplay:true];
 
-    // Do any additional setup after loading the view.
 }
+
 
 - (void)setRepresentedObject:(id)representedObject {
     [super setRepresentedObject:representedObject];
 
     // Update the view, if already loaded.
 }
+
 
 @end

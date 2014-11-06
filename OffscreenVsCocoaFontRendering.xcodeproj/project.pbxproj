@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B0C1C3AE735CC72583CACBE /* MyOGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0C1DD05592E5F9BD23889C /* MyOGLView.m */; };
 		920409801A03B67400EA8929 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9204097F1A03B67400EA8929 /* AppDelegate.m */; };
 		920409821A03B67400EA8929 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 920409811A03B67400EA8929 /* main.m */; };
 		920409851A03B67400EA8929 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920409841A03B67400EA8929 /* ViewController.m */; };
 		920409871A03B67400EA8929 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920409861A03B67400EA8929 /* Images.xcassets */; };
 		9204098A1A03B67400EA8929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920409881A03B67400EA8929 /* Main.storyboard */; };
 		920409961A03B67400EA8929 /* OffscreenVsCocoaFontRenderingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 920409951A03B67400EA8929 /* OffscreenVsCocoaFontRenderingTests.m */; };
+		920409A11A03B6B600EA8929 /* MyDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 920409A01A03B6B600EA8929 /* MyDrawingView.m */; };
+		927190CE1A0BA34700484BA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927190CD1A0BA34700484BA4 /* Foundation.framework */; };
+		927190D01A0BA35100484BA4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927190CF1A0BA35100484BA4 /* Cocoa.framework */; };
+		927190D21A0BA35C00484BA4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927190D11A0BA35C00484BA4 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B0C135D66FE31779B8B27AE /* MyOGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOGLView.h; sourceTree = "<group>"; };
+		5B0C1DD05592E5F9BD23889C /* MyOGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOGLView.m; sourceTree = "<group>"; };
 		920409791A03B67300EA8929 /* OffscreenVsCocoaFontRendering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OffscreenVsCocoaFontRendering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9204097D1A03B67400EA8929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9204097E1A03B67400EA8929 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,6 +45,11 @@
 		9204098F1A03B67400EA8929 /* OffscreenVsCocoaFontRenderingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OffscreenVsCocoaFontRenderingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		920409941A03B67400EA8929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		920409951A03B67400EA8929 /* OffscreenVsCocoaFontRenderingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OffscreenVsCocoaFontRenderingTests.m; sourceTree = "<group>"; };
+		9204099F1A03B6B600EA8929 /* MyDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDrawingView.h; sourceTree = "<group>"; };
+		920409A01A03B6B600EA8929 /* MyDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDrawingView.m; sourceTree = "<group>"; };
+		927190CD1A0BA34700484BA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		927190CF1A0BA35100484BA4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		927190D11A0BA35C00484BA4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				927190D21A0BA35C00484BA4 /* OpenGL.framework in Frameworks */,
+				927190D01A0BA35100484BA4 /* Cocoa.framework in Frameworks */,
+				927190CE1A0BA34700484BA4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,9 @@
 		920409701A03B67300EA8929 = {
 			isa = PBXGroup;
 			children = (
+				927190D11A0BA35C00484BA4 /* OpenGL.framework */,
+				927190CF1A0BA35100484BA4 /* Cocoa.framework */,
+				927190CD1A0BA34700484BA4 /* Foundation.framework */,
 				9204097B1A03B67300EA8929 /* OffscreenVsCocoaFontRendering */,
 				920409921A03B67400EA8929 /* OffscreenVsCocoaFontRenderingTests */,
 				9204097A1A03B67300EA8929 /* Products */,
@@ -86,6 +104,10 @@
 				920409861A03B67400EA8929 /* Images.xcassets */,
 				920409881A03B67400EA8929 /* Main.storyboard */,
 				9204097C1A03B67400EA8929 /* Supporting Files */,
+				9204099F1A03B6B600EA8929 /* MyDrawingView.h */,
+				920409A01A03B6B600EA8929 /* MyDrawingView.m */,
+				5B0C1DD05592E5F9BD23889C /* MyOGLView.m */,
+				5B0C135D66FE31779B8B27AE /* MyOGLView.h */,
 			);
 			path = OffscreenVsCocoaFontRendering;
 			sourceTree = "<group>";
@@ -218,6 +240,8 @@
 				920409851A03B67400EA8929 /* ViewController.m in Sources */,
 				920409821A03B67400EA8929 /* main.m in Sources */,
 				920409801A03B67400EA8929 /* AppDelegate.m in Sources */,
+				920409A11A03B6B600EA8929 /* MyDrawingView.m in Sources */,
+				5B0C1C3AE735CC72583CACBE /* MyOGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +281,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULES = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -298,7 +322,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULES = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -404,6 +428,7 @@
 				9204099B1A03B67400EA8929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9204099C1A03B67400EA8929 /* Build configuration list for PBXNativeTarget "OffscreenVsCocoaFontRenderingTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +437,7 @@
 				9204099E1A03B67400EA8929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

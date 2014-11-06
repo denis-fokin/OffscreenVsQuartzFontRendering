@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AA08B166-19AB-43A0-816E-4D7D06BCCFDF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OffscreenVsCocoaFontRendering</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C7284C60CD787641F73ED04A268AB5A64ADBA159</key>
+		<string>https://github.com/denis-fokin/OffscreenVsQuartzFontRendering.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OffscreenVsCocoaFontRendering.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C7284C60CD787641F73ED04A268AB5A64ADBA159</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/denis-fokin/OffscreenVsQuartzFontRendering.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C7284C60CD787641F73ED04A268AB5A64ADBA159</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C7284C60CD787641F73ED04A268AB5A64ADBA159</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OffscreenVsCocoaFontRendering</string>
+		</dict>
+	</array>
+</dict>
+</plist>
